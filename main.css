@@ -1,0 +1,218 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(assets/font/Ailerons-Typeface.otf);
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url(assets/font/Montserrat-Regular.ttf);
+}
+
+
+aside, figcaption, figure, 
+footer, header, menu, nav {display: block; overflow:hidden;}
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { margin: 0; font-size: 12px; line-height: 1.5; }
+body, input, textarea { font-family: Arial, sans-serif; color: #666666; }
+
+
+
+/* links */
+a { color: #079939 ; }
+a:hover { color: #f3df18;} 
+*:hover, *:focus, *:active { outline: 0; outline: none; }
+
+
+
+
+/* typo */
+p {margin:0 0 1em;}
+strong, .strong { font-weight: bold; }
+address{font-style: normal;}
+
+
+
+
+/* lijst */
+ul, menu { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+
+
+
+/* media */
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+figure { margin: 0; }
+
+
+
+
+/* form */
+form { margin: 0; }
+label { cursor: pointer; }
+button, input, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+button, input { line-height: normal; *overflow: visible; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+
+
+
+
+/* stijlen */
+.intro {text-align: center}
+h1, h2, h3, h5, h6 { margin: 0 0 1em }
+h1 {font-family: myFirstFont; font-size: 50px; letter-spacing: -0.075em; text-transform: uppercase; line-height: 0.9; color: #555; margin: 0 0 30px; font-weight: normal; }
+h2 {font-family: myFirstFont; font-size: 30px; margin: 0 0 20px; letter-spacing: -0.05em; color: #555; line-height: 1; }
+h3 { font-family: mySecondFont;font-size: 21px }
+h5 { font-size: 14px; text-transform: uppercase; margin: 0; color: #555; }
+h6 { font-size: 12px; margin-bottom: 2px; }
+body { width: 100%; min-width: 988px; overflow: hidden; }
+.center { margin-left: auto; margin-right: auto; display: block; clear: both; overflow: hidden; padding: 0 5px; width: 978px; }
+.column4 { width: 22.6993865%; overflow: hidden; float: left; display: block; height: 100%; }
+.column3 { width: 31.2883436%; overflow: hidden; float: left; display: block; height: 100%; }
+.columnthird { width: 74.2331288%; min-width: 726px; overflow: hidden; float: left; display: block; height: 100%;}
+.mright { margin-right: 3.06748466% }
+.mbottom { margin-bottom: 30px }
+.fright, .fleft { display: block; overflow: hidden; }
+.fright { float: right }
+.fleft { float: left }
+
+
+
+
+/* header */
+.logo { margin: 20px 0 }
+header nav { margin-top: 65px }
+    header nav ul { float: left; overflow: hidden; padding: 0 30px 0 20px; border-left: 1px solid #ddd; line-height: 24px; }
+nav a, menu a { text-decoration: none; color: #666; }
+.navactive { color: #079939  }
+.part { margin-bottom: 50px }
+.title { border-top: 1px solid #999; padding-top: 10px; color: #555; margin-bottom: 30px; }
+.more { color: #999; font-style: italic; }
+
+
+
+
+/* footer */
+footer.part { padding-top: 20px; border-top: 1px solid #999; color: #555; margin-bottom: 80px; }
+footer nav ul { float: right; overflow: hidden; }
+footer a {text-decoration: none;color: #e62f22;}
+footer li { float: left; margin-right: 10px; padding-right: 10px; border-right: 1px solid #DDD; font-size: 11px; }
+footer li:last-child { margin-right: 0; padding-right: 0; border-right: none; }
+.up .ir { display: block; background: url(img/up.png) no-repeat center; width: 25px; height: 18px; text-align: center; margin: 0 auto; }
+.part ul{ margin-bottom: 10px;}
+.about .content img { max-width: 100%; width: auto; height: auto; }
+.detail { margin-top: 40px; padding-top: 20px; border-top: 1px solid #DDD; }
+
+
+
+
+/* portfolio */
+.work { width: 222px; overflow: hidden; float: left; display: block; height: 100%; margin-right: 30px; border-top: 1px solid #DDD; padding-top: 10px; }
+    .work  { position: relative }
+        .work > a { display: block; width: 222px; height: 137px; overflow: hidden; }
+        .work img { max-width: 100%; height: auto; width: auto; }
+    .work .zoom { display: block; position: absolute; top: 10px; left: 0; width: 222px; height: 137px; }
+    .works figcaption, .work figcaption { margin-top: 10px; padding: 0 5px; white-space: nowrap; }
+        .works figcaption a, .work figcaption a { margin: 0 0 2px; color: #555; font-weight: bold; }
+        .works figcaption p, .work figcaption p { margin: 0; }
+.main .work:last-child { margin-right: 0 }
+.works .content .work:nth-child(3n) { margin-right: 0 }
+.works .content .work { margin-bottom: 40px; position: relative; }
+.works menu a { cursor: pointer }
+
+
+
+
+
+/* portfolio project */
+.singlework figure {margin-bottom: 30px;}
+.singlework figure figcaption {
+	 	 text-align: center}
+.singlework img {
+	 max-width: 100%; height: auto; width: auto; display: block; margin: 0 auto}
+
+
+
+
+/* form */
+form { margin-top: 30px }
+    form label, .contact_ie9 label { display: block; margin-bottom: 10px; font-weight: bold; }
+    form ul li, .contact_ie9 li { margin-bottom: 30px }
+    form input, form textarea, .contact_ie9 input, .contact_ie9 textarea { width: 60%; height: 25px; line-height: 25px; padding: 5px; border: 1px solid #DDD; color: #999; }
+    form input, .contact_ie9 input { padding-right: 20px }
+    form textarea, .contact_ie9 textarea { height: 200px; width: 97%; }
+    form button#submit, .contact_ie9 #submit { line-height: 18px }
+
+
+
+
+
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.ir br { display: none; }
+.hidden { display: none !important; visibility: hidden; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+
+
+
+@media only screen and (max-width: 768px) { 
+    body { min-width: 760px; font-size: 0.7em; }
+    .center { width: 750px }
+    h1 { font-size: 38px }
+    h2 { font-size: 24px }
+    h3 { font-size: 18px }
+    h5 { font-size: 12px }
+    h6 { font-size: 11px }
+    .work { width: 170px; margin-right: 23px; }
+    .work > a { width: 170px; height: 105px; }
+    .work .zoom { width: 170px; height: 105px; }
+    .columnthird { min-width: 556px; }
+    .map { width: 170px }
+    footer li { margin-right: 5px; padding-right: 5px; font-size: 10px; }
+    footer li:last-child { margin-right: 0; padding-right: 0; border-right: none; }
+}
+
+
+
+
+
+@media screen and (max-width:620px) { 
+    body { min-width: 610px; font-size: 12px; }
+    .center { width: 600px }
+    .column2 { width: 100% }
+    .columnthird { width: 100% }
+    header nav ul:last-child { padding-right: 10px }
+    .main .work, .works .work { width: 285px; margin-right: 0; }
+    .main .work { margin-right: 0!important }
+    .work > a { width: 285px; height: 175px; }
+    .work .zoom { width: 285px; height: 175px; }
+    aside.column4 { float: none; width: 100%; }
+    aside menu { display: none }
+    .works .work:nth-child(odd) { margin-right: 30px!important }
+    .main .work:nth-child(even) { margin-right: 30px!important }
+    .contact .content { border-top: 1px solid #DDD; padding-top: 20px; } 
+    .map { display: none }
+    footer li { border-right: none; line-height: 2; float: none; margin: 1px; padding: 1px; }
+    footer nav li { text-align: right }
+    footer li:last-child { margin-right: inherit; padding-right: inherit; }
+}
+
+
+
+
+
+@media print { 
+    * { background: transparent !important; color: black !important; text-shadow: none !important; filter: none !important; -ms-filter: none !important; }
+    pre { page-break-inside: avoid }
+    thead { display: table-header-group }
+    tr, img { page-break-inside: avoid }
+    img { max-width: 100% !important }
+    p, h2, h3 { orphans: 3; widows: 3; }
+    h2, h3 { page-break-after: avoid }
+}
